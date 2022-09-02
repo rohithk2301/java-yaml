@@ -24,7 +24,7 @@ stages:
 - stage: Build
   displayName: Build stage
   jobs:
-  - job: MavenPackageAndPublishArtifacts
+  - job: MavenBuild
     displayName: Maven Package and Publish Artifacts
     pool:
       vmImage: $(vmImageName)
